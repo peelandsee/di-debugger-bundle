@@ -19,9 +19,6 @@
         "symfony/framework-bundle": "~2.1"
     },
     "require-dev": {
-        "phpspec/phpspec": "~2.0",
-        "phpunit/phpunit": "~4.2",
-        "mockery/mockery": "@stable"
     },
     "autoload": {
         "psr-0": {
@@ -31,11 +28,6 @@
         }
     },
     "target-dir": "Cypress/DiDebuggerBundle",
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0.x-dev"
-        }
-    },
     "config": {
         "bin-dir": "bin"
     }
